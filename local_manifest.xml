@@ -14,21 +14,22 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 
   <project path="bionic" name="Quarx2k/android_bionic"  />
-  <project path="build" name="Quarx2k/android_build" />
   <project path="frameworks/base" name="Quarx2k/android_frameworks_base"  />
   <project path="frameworks/av" name="Quarx2k/android_frameworks_av"  />
   <project path="frameworks/native" name="Quarx2k/android_frameworks_native"  />
   <project path="hardware/ril" name="Quarx2k/android_hardware_ril"  />
-  <project path="vendor/motorola" name="Quarx2k/proprietary_vendor_motorola" />
-  <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common" />
-  <project path="device/moto/mb52x" name="Quarx2k/android_device_moto_mb526" />
-  <project path="jordan-kernel" name="Quarx2k/jordan-kernel" revision="3.0-defy" />
   <project path="system/core" name="Quarx2k/android_system_core"  />
   <!--  <project path="packages/apps/MotoFM" name="maniac103/android_packages_apps_MotoFM" revision="jellybean"  /> 
   <project path="packages/apps/MotoFMService" name="maniac103/android_packages_apps_MotoFMService" revision="gingerbread"  />  -->
   <project path="hardware/libhardware_legacy" name="Quarx2k/android_hardware_libhardware_legacy" />
   <project path="hardware/ti/omap3" name="Quarx2k/android_hardware_ti_omap3" />
   <!--   <project path="external/helper_cmupdaterincremental" name="xdarklight/android_external_helper_cmupdaterincremental" /> -->
-  <project path="frameworks/opt/telephony" name="Quarx2k/android_frameworks_opt_telephony"  />
   <project path="prebuilt" name="CyanogenMod/android_prebuilt"  revision="cm-11.0" />
+
+  <project path="shadow-kernel" name="Quarx2k/jordan-kernel" revision="3.0-defy" />
+  <project path="build" name="MotoDX-CM12/android_build" />
+  <project path="device/moto/shadow-common" name="MotoDX-CM12/android_device_moto_shadow-common" />
+  <project path="device/moto/shadow" name="MotoDX-CM12/android_device_moto_shadow" />
+  <project path="vendor/motorola" name="MotoDX-CM12/proprietary_vendor_motorola" />
+  <project path="frameworks/opt/telephony" name="MotoDX-CM12/android_frameworks_opt_telephony"  />
 </manifest>
